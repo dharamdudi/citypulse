@@ -20,5 +20,5 @@ where elite_year is not null
     md5(cast(coalesce(cast(user_id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(year as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as surrogate_key,
     user_id,
     year,
-    '2025-02-03 11:21:44.340172+00:00'::timestamp_tz as executed_at
+    '2025-02-03 11:29:39.319492+00:00'::timestamp_tz as executed_at
 from __dbt__cte__int_users_elite_years

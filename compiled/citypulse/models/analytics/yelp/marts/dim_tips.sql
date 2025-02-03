@@ -7,7 +7,7 @@ select
     tip_date,
     tip_msg,
     compliment_count,
-    '2025-02-03 11:21:44.340172+00:00'::timestamp_tz as executed_at
+    '2025-02-03 11:29:39.319492+00:00'::timestamp_tz as executed_at
 from raw.yelp.view_tips
 where tip_date is not null
 qualify row_number() over (partition by surrogate_key order by tip_date desc) = 1

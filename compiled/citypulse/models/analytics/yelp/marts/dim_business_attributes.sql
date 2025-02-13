@@ -395,7 +395,7 @@ pivot(
     hr.hair_asian,
     hr.hair_curly,
     hr.hair_kids,
-    '2025-02-03 11:35:40.791206+00:00'::timestamp_tz as executed_at
+    '2025-02-13 09:26:50.448447+00:00'::timestamp_tz as executed_at
 from __dbt__cte__business_attributes_restaurent as rst
 left join __dbt__cte__business_attributes_pets as pets
     on rst.business_id = pets.business_id

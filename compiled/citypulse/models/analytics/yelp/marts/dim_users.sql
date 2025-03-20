@@ -21,5 +21,5 @@ select
     compliment_funny,
     compliment_writer,
     compliment_photos,
-    '2025-02-13 09:26:50.448447+00:00'::timestamp_tz as executed_at
+    '2025-03-20 19:27:28.271935+00:00'::timestamp_tz as executed_at
 from raw.yelp.view_users

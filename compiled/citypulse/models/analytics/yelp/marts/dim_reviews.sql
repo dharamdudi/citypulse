@@ -10,5 +10,5 @@ select
     useful_votes,
     funny_votes,
     cool_votes,
-    '2025-03-31 14:59:21.723829+00:00'::timestamp_tz as executed_at
+    '2025-03-31 15:49:54.234692+00:00'::timestamp_tz as executed_at
 from raw.yelp.view_reviews

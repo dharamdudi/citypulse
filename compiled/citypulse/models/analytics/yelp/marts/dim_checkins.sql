@@ -12,5 +12,5 @@ lateral flatten(input => checkin_datetimes) as f
     md5(cast(coalesce(cast(business_id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(checkin_date as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as surrogate_key,
     business_id,
     checkin_date,
-    '2025-03-20 19:40:28.389243+00:00'::timestamp_tz as executed_at
+    '2025-03-31 14:59:21.723829+00:00'::timestamp_tz as executed_at
 from __dbt__cte__int_checkins
